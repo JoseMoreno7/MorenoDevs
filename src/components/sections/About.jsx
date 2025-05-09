@@ -1,4 +1,21 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaPython, FaJava } from "react-icons/fa";
+import { SiTailwindcss, SiMongodb, SiPostgresql, SiMysql } from "react-icons/si";
+
+const icons = {
+    HTML: <FaHtml5 className="text-orange-500 text-xl flex-shrink-0" />,
+    CSS: <FaCss3Alt className="text-blue-500 text-xl flex-shrink-0" />,
+    JavaScript: <FaJs className="text-yellow-400 text-xl flex-shrink-0" />,
+    React: <FaReact className="text-cyan-400 text-xl flex-shrink-0" />,
+    "Tailwind CSS": <SiTailwindcss className="text-sky-400 text-xl flex-shrink-0" />,
+    "Node.js": <FaNodeJs className="text-green-500 text-xl flex-shrink-0" />,
+    MongoDB: <SiMongodb className="text-green-600 text-xl flex-shrink-0" />,
+    MySQL: <SiMysql className="text-blue-600 text-xl flex-shrink-0" />,
+    PostgreSQL: <SiPostgresql className="text-blue-400 text-xl flex-shrink-0" />,
+    Python: <FaPython className="text-yellow-400 text-xl flex-shrink-0" />,
+    Java: <FaJava className="text-red-500 text-xl flex-shrink-0" />,
+};
+
 
 export const About = () => {
     //const para las skills de frontend y backend
@@ -16,8 +33,6 @@ export const About = () => {
         "PostgreSQL",
         "Python",
         "Java",
-        "C++",
-        "C#",
     ];
 
 
@@ -40,34 +55,40 @@ export const About = () => {
                             Throughout my career, I have had the opportunity to carry out a variety of projects that have allowed me to develop my technical and problem-solving skills. I am passionate about learning new technologies and constantly improving my skills. I am always looking for new challenges and opportunities to grow as a developer.
                         </p>
                         
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
                             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                                <h3 className="text-xl font-bold mb-4"> Frontend</h3>
-                                <div className="flex flex-wrap gap-2">
+                                <h3 className="text-xl font-bold mb-4 text-center"> Frontend</h3>
+                                <div className="flex flex-wrap gap-2 justify-center">
                                     {frontendSkills.map((tech, key) => (
                                         <span
-                                        key={key}
+                                            key={key}
                                             className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
-                                            hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.2)] transition"
+                                            hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.2)] transition flex items-center justify-center gap-2"
                                         >
-                                            {tech}
+                                            {icons[tech]}
+                                            <span
+                                                className="whitespace-nowrap">{tech}
+                                            </span>
                                         </span>
                                     ))}
                                 </div>
                             </div>
                         </div>
 
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
                             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                                <h3 className="text-xl font-bold mb-4"> Backend</h3>
-                                <div className="flex flex-wrap gap-2">
+                                <h3 className="text-xl font-bold mb-4 text-center"> Backend</h3>
+                                <div className="flex flex-wrap gap-2 justify-center">
                                     {backendSkills.map((tech, key) => (
                                         <span
-                                        key={key}
+                                            key={key}
                                             className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
-                                            hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.2)] transition"
+                                            hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.2)] transition flex items-center justify-center gap-2"
                                         >
-                                            {tech}
+                                            {icons[tech]}
+                                            <span
+                                                className="whitespace-nowrap">{tech}
+                                            </span>
                                         </span>
                                     ))}
                                 </div>

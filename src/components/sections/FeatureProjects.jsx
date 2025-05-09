@@ -1,9 +1,9 @@
 import  {RevealOnScroll} from "../RevealOnScroll";
 
-export const Projects = () => {
+export const FeatureProjects = () => {
     return (
         <section
-            id="projects"
+            id="featureProjects"
             className="min-h-screen flex items-center justify-center py-20"
         >
             <RevealOnScroll>
@@ -12,7 +12,7 @@ export const Projects = () => {
                             to-cyan-400 bg-clip-text text-transparent text-center"
                     >
                         {" "}
-                        Projects
+                        Feature Projects
                     </h2>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

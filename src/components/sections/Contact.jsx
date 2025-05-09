@@ -1,6 +1,7 @@
 import { RevealOnScroll } from "../RevealOnScroll";
-import emailjs from 'emailjs-com'
+import emailjs from 'emailjs-com';
 import { useState } from "react";
+import { FaWhatsapp } from "react-icons/fa";
 
 export const Contact = () => {
     const [formData, setFormData] = useState({
@@ -32,13 +33,16 @@ export const Contact = () => {
             });
     };
 
+    const whatsappNumber = "51950542468";
+    const whatsappMessage = "Hola, estoy interesado en contactarte";
+
     return (
         <section
             id="contact"
             className="min-h-screen flex items-center justify-center py-20"
         >
             <RevealOnScroll>
-                <div className="px-4 2-150">
+                <div className="px-4 w-full max-w-md">
                     <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500
                             to-cyan-400 bg-clip-text text-transparent text-center"
                     >
@@ -90,6 +94,17 @@ export const Contact = () => {
                             Send Message
                         </button>
                     </form>
+                    <div className="mb-8 text-center py-4">
+                        <a
+                            href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className=" bg-transparent border-2 border-cyan-400 text-cyan-400 p-3 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 md:p-4"
+                        >
+                            <FaWhatsapp className="text-2xl md:text-3xl px-1" />
+                            Contactar por WhatsApp
+                        </a>
+                    </div>
                 </div>
             </RevealOnScroll>
         </section>
