@@ -37,9 +37,9 @@ export const About = () => {
                     <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1
                         transition-all">
                         <p className="text-gray-300 mb-6">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ratione consequatur optio odit nihil! Quia maiores eveniet quod eum dolore tenetur repudiandae dignissimos quisquam voluptas, temporibus corrupti rerum modi odio?
+                            Throughout my career, I have had the opportunity to carry out a variety of projects that have allowed me to develop my technical and problem-solving skills. I am passionate about learning new technologies and constantly improving my skills. I am always looking for new challenges and opportunities to grow as a developer.
                         </p>
-
+                        
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
                                 <h3 className="text-xl font-bold mb-4"> Frontend</h3>
@@ -81,15 +81,18 @@ export const About = () => {
                             <h3 className="text-xl font-bold mb-4 "> Education </h3>
                             <ul className="list-disc list-inside text-gray-300 space-y-2">
                                 <li>
-                                    <strong>B.S. in Computer Science </strong> - XYZ University (2020 - 2024)
+                                    <strong>Systems Engineering and Informatics </strong><br />UNAP University (2018 - 2021)
                                 </li>
                                 <li>
-                                    <strong>B.S. in Computer Science </strong> - XYZ University (2020 - 2024)
+                                    <strong>Responsive Web Design </strong><br />FreeCodeCamp (April 5, 2023)
+                                </li>
+                                <li>
+                                    <strong>Sevelopment of Information Systems </strong><br />IDAT Institute (2023 - 2025)
                                 </li>
                             </ul>
                         </div>
                         <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-                            <h3 className="text-xl font-bold mb-4 "> Work Experience </h3>
+                            <h3 className="text-xl font-bold mb-4 "> Experience </h3>
                             <div className="space-y-4 text-gray-300">
                                 <div>
                                     <h4 className="font-semibold">

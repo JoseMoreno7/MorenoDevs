@@ -10,11 +10,11 @@ export const Home = () => {
                 <div className="text-center z-10 px-4">
                     <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r 
                     from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-right">
-                        Hi, I`m Josè Moreno
+                        Hi, I`m José Moreno
                     </h1>
 
                     <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia placeat impedit, dignissimos, aperiam nobis nemo commodi culpa doloribus ipsam autem fuga quam vero consectetur quae eligendi. Ipsum animi voluptates laudantium.
+                        I like to learn new things and I’m always looking to improve my skills. I love working on interesting and challenging projects, and I strive to do a good job in everything I do.
                     </p>
 
                     <div className="flex justify-center space-x-4">
