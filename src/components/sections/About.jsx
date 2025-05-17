@@ -11,7 +11,7 @@ const icons = {
     "Node.js": <FaNodeJs className="text-green-500 text-xl flex-shrink-0" />,
     MongoDB: <SiMongodb className="text-green-600 text-xl flex-shrink-0" />,
     MySQL: <SiMysql className="text-blue-600 text-xl flex-shrink-0" />,
-    PostgreSQL: <SiPostgresql className="text-blue-400 text-xl flex-shrink-0" />,
+    //PostgreSQL: <SiPostgresql className="text-blue-400 text-xl flex-shrink-0" />,
     Python: <FaPython className="text-yellow-400 text-xl flex-shrink-0" />,
     Java: <FaJava className="text-red-500 text-xl flex-shrink-0" />,
 };
@@ -30,7 +30,7 @@ export const About = () => {
         "Node.js",
         "MongoDB",
         "MySQL",
-        "PostgreSQL",
+        //"PostgreSQL",
         "Python",
         "Java",
     ];
@@ -51,9 +51,16 @@ export const About = () => {
 
                     <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1
                         transition-all">
-                        <p className="text-gray-300 mb-6">
-                            Throughout my career, I have had the opportunity to carry out a variety of projects that have allowed me to develop my technical and problem-solving skills. I am passionate about learning new technologies and constantly improving my skills. I am always looking for new challenges and opportunities to grow as a developer.
+                        <p className="text-gray-300 mb-3">
+                            My name is José Alfredo Moreno. I'm a junior developer and a computer science student at IDAT Higher Institute. I'm constantly learning and enjoy being involved in projects that push me to grow professionally.
                         </p>
+                        <p className="text-gray-300 mb-3">
+                            I have knowledge in web development, databases, programming logic, and interface design. Through personal projects, I've been able to apply my skills and strengthen both my technical and soft abilities.
+                        </p>
+                        <p className="text-gray-300 mb-4">
+                            I'm currently seeking opportunities to grow as a developer, collaborate on real-world projects, and continue learning. If you'd like to connect or work together, feel free to reach out!
+                        </p>
+
                         
                         <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
                             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
@@ -113,22 +120,41 @@ export const About = () => {
                             </ul>
                         </div>
                         <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-                            <h3 className="text-xl font-bold mb-4 "> Experience </h3>
-                            <div className="space-y-4 text-gray-300">
+                            <h3 className="text-xl font-bold mb-2"> Outside of code </h3>
+                            <div className="space-y-2 text-gray-300">
                                 <div>
-                                    <h4 className="font-semibold">
+                                    <h4 className="text-sm font-semibold text-gray-300">
                                         {" "}
-                                        Software Engineer at ABC Corp (2020 - Present) </h4>
-                                    <p>
-                                        Developed and maintained web applications using React and Node.js. Collaborated with cross-functional teams to deliver high-quality software solutions.
+                                        My personal ritual for focus and creativity
+                                    </h4>
+                                    <p className="text-sm text-gray-400">
+                                        I love starting my programming sessions with a good cup of coffee — it helps me get into the flow and stay creative.
                                     </p>
                                 </div>
                                 <div>
-                                    <h4 className="font-semibold">
+                                    <h4 className="text-sm font-semibold text-gray-300">
                                         {" "}
-                                        Intern at DEF Startups  (2019) </h4>
-                                    <p>
-                                        Assited in the development of a mobile application using React Native. Participated in code reviews and contributed to the design of the application architecture.
+                                        Besides coding
+                                    </h4>
+                                    <p className="text-sm text-gray-400">
+                                        I'm passionate about sports like football, basketball, and even chess. I'm not a chess master, but I enjoy the strategy behind it and I'm always open to learning new games or sports, especially when it involves playing with others.
+                                    </p>
+                                </div>
+                                <div>
+                                    <h4 className="text-sm font-semibold text-gray-300">
+                                        {" "}
+                                        Another thing I truly enjoy is food
+                                    </h4>
+                                    <p className="text-sm text-gray-400">
+                                        I’m a big fan of Peruvian cuisine and love discovering new flavors.
+                                    </p>
+                                </div><div>
+                                    <h4 className="text-sm font-semibold text-gray-300">
+                                        {" "}
+                                        And of course, gaming is a huge part of my free time
+                                    </h4>
+                                    <p className="text-sm text-gray-400">
+                                        I enjoy playing games like PES, Dota 2, Free Fire, and Call of Duty. Whether it’s on the field or in-game, I love challenges, strategy, and teamwork.
                                     </p>
                                 </div>
                             </div>

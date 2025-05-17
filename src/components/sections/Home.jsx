@@ -13,8 +13,8 @@ export const Home = () => {
                         Hi, I`m José Moreno
                     </h1>
 
-                    <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-                        I like to learn new things and I’m always looking to improve my skills. I love working on interesting and challenging projects, and I strive to do a good job in everything I do.
+                    <p className="text-gray-300 text-lg mb-8 max-w-lg mx-auto">
+                        I'm a junior developer passionate about technology and building functional solutions. I enjoy learning continuously and applying my knowledge to projects that create real impact. Welcome to my portfolio.
                     </p>
 
                     <div className="flex justify-center space-x-4">
