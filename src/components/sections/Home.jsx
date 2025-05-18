@@ -13,12 +13,12 @@ export const Home = () => {
                     <img
                     src={profileImg}
                     alt="José Moreno"
-                    className="w-35 h-35 md:w-60 md:h-60 object-cover rounded-full border-3 border-cyan-600 shadow-lg"
+                    className="w-45 h-45 md:w-65 md:h-65 object-cover rounded-full border-3 border-cyan-600 shadow-lg"
                     />
                 </div>
 
                 <div className="text-center md:text-left">
-                    <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-gradient-to-r 
+                    <h1 className="text-5xl md:text-6xl font-bold mb-4 bg-gradient-to-r 
                     from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-tight"
                     >
                         Hi, I’m José Moreno
