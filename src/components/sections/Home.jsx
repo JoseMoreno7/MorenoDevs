@@ -18,7 +18,7 @@ export const Home = () => {
                 </div>
 
                 <div className="text-center md:text-left">
-                    <h1 className="text-5xl md:text-6xl font-bold mb-4 bg-gradient-to-r 
+                    <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-gradient-to-r 
                     from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-tight"
                     >
                         Hi, I’m José Moreno
