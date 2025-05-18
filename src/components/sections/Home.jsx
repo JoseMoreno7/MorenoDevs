@@ -13,24 +13,24 @@ export const Home = () => {
                     <img
                     src={profileImg}
                     alt="José Moreno"
-                    className="w-60 h-60 object-cover rounded-full border-4 border-cyan-700 shadow-lg"
+                    className="w-35 h-35 md:w-60 md:h-60 object-cover rounded-full border-3 border-cyan-600 shadow-lg"
                     />
                 </div>
 
                 <div className="text-center md:text-left">
-                    <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r 
+                    <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-gradient-to-r 
                     from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-tight"
                     >
                         Hi, I’m José Moreno
                     </h1>
 
-                    <p className="text-gray-300 text-lg mb-8 max-w-xl">
+                    <p className="text-gray-300 text-lg mb-4 max-w-2xl">
                         I'm a junior developer passionate about technology and building functional solutions.
                         I enjoy learning continuously and applying my knowledge to projects that create real impact.
                         Welcome to my portfolio.
                     </p>
 
-                    <div className="flex justify-center md:justify-start space-x-4">
+                    <div className="flex justify-center md:justify-start  space-x-4">
                         <a
                             href="#projects"
                             className="bg-blue-500 text-white py-3 px-6  rounded font-medium transition
