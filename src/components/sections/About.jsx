@@ -106,16 +106,16 @@ export const About = () => {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
                         <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-                            <h3 className="text-xl font-bold mb-4 "> Education </h3>
-                            <ul className="list-disc list-inside text-gray-300 space-y-2">
+                            <h3 className="text-xl font-bold mb-6 "> Education </h3>
+                            <ul className="list-disc list-inside text-gray-300 space-y-6">
                                 <li>
-                                    <strong>Systems Engineering and Informatics </strong><br />UNAP University (2018 - 2021)
+                                    <strong> Marketing </strong><br />Cepea (2017 - 2018)
                                 </li>
                                 <li>
-                                    <strong>Responsive Web Design </strong><br />FreeCodeCamp (April 5, 2023)
+                                    <strong>Responsive Web Design </strong><br />FreeCodeCamp (January 2023 - April 2023)
                                 </li>
                                 <li>
-                                    <strong>Sevelopment of Information Systems </strong><br />IDAT Institute (2023 - 2025)
+                                    <strong>Development of Information Systems </strong><br />IDAT Institute (2023 - studying)
                                 </li>
                             </ul>
                         </div>

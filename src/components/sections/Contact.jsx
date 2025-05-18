@@ -94,7 +94,7 @@ export const Contact = () => {
                             Send Message
                         </button>
                     </form>
-                    <div className="mb-8 text-center py-4">
+                    <div className="mb-8 text-center py-8">
                         <a
                             href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`}
                             target="_blank"
