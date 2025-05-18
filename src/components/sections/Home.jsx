@@ -9,7 +9,6 @@ export const Home = () => {
             >
             <RevealOnScroll>
                 <div className="flex flex-col md:flex-row items-center justify-center max-w-6xl mx-auto px-4 gap-10">
-                {/* Imagen */}
                 <div className="flex-shrink-0">
                     <img
                     src={profileImg}
@@ -18,7 +17,6 @@ export const Home = () => {
                     />
                 </div>
 
-                {/* Texto */}
                 <div className="text-center md:text-left">
                     <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r 
                     from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-tight"

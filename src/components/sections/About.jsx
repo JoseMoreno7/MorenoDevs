@@ -11,14 +11,12 @@ const icons = {
     "Node.js": <FaNodeJs className="text-green-500 text-xl flex-shrink-0" />,
     MongoDB: <SiMongodb className="text-green-600 text-xl flex-shrink-0" />,
     MySQL: <SiMysql className="text-blue-600 text-xl flex-shrink-0" />,
-    //PostgreSQL: <SiPostgresql className="text-blue-400 text-xl flex-shrink-0" />,
     Python: <FaPython className="text-yellow-400 text-xl flex-shrink-0" />,
     Java: <FaJava className="text-red-500 text-xl flex-shrink-0" />,
 };
 
 
 export const About = () => {
-    //const para las skills de frontend y backend
     const frontendSkills = [
         "HTML",
         "CSS",
@@ -30,7 +28,6 @@ export const About = () => {
         "Node.js",
         "MongoDB",
         "MySQL",
-        //"PostgreSQL",
         "Python",
         "Java",
     ];
